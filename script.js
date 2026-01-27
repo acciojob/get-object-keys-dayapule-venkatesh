@@ -1,11 +1,9 @@
 //your JS code here. If required.
 const student={
-	name:"venkatesh",
-	age: 22,
-	city: "hyderabad"
-}
+	name:"John",
+};
 function getKeys(obj){
 	return Object.keys(obj);
 	
 }
-console.log(getKeys(student))
+console.log(getKeys(student));

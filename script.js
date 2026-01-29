@@ -2,8 +2,10 @@
 const student={
 	name:"John",
 };
+let arr=[];
 function getKeys(obj){
 	for(let i in obj){
-		console.log(i)
+		arr.push(i)
 	}
+	console.log(arr);
 }

@@ -3,5 +3,7 @@ const student={
 	name:"John",
 };
 function getKeys(obj){
-	return Object.keys(obj);
+	for(let i in obj){
+		console.log(i)
+	}
 }

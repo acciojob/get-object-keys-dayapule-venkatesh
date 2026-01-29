@@ -1,12 +1,12 @@
-//your JS code here. If required.
-const student={
-	name:"John",
+// Create the student object
+const student = {
+  name: "John",
 };
-let arr=[];
-function getKeys(obj){
-	for(let i in obj){
-		arr.push(i)
-	}
-	return arr;
+
+// Function to get all keys from the object
+function getKeys(obj) {
+  return Object.keys(obj);
 }
-console.log(getKeys(student))
+
+// Testing the function
+console.log(getKeys(student)); // Output: ["name"]
